@@ -42,6 +42,8 @@ The R codes for each function file in the paper can be found in the "R Codes" fo
 10. "NearestNeighborCalculator.R"
     - This code computes the nearest neighbor analysis of the data points in the user's CSV file. The output is an .rds file containing the nearest neighbor analysis.
 12. "ProxMatrix.R"
-13. "ALB_ABM.R"
+    - This code computes the proximity matrix for the short and long radii defined in the "ABMProcedure.R" code. This code must be run in conjunction with the following "ALB_ABM.R" because the long proximity matrix is usually too large of a file to download. The short proximity matrix is saved to an .rds file and the long proximity matrix is stored in the user's cache. Both outputs are used in the "ALB_ABM.R" code. 
+14. "ALB_ABM.R"
+    - This code runs the agent based model simulation using all of the files computed in the previous code calculators. The output consists of plots for the agent populations over time and visualizations of the data points over time.
 
 
