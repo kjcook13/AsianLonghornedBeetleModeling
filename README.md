@@ -30,7 +30,7 @@ The R codes for each function file in the paper can be found in the "R Codes" fo
        - Removal count per year
        - Survey radius
        - Beetle Generation Time (1-3 years)
-       - 
+       - Set Removal Preference: Infestation Density, Cost, or Random
 2. "Initialize.R"
     - This function file initializes the agent based model by making sure that all of the necessary packages are installed on the user's R library and sets the storage paths.
 3. "Preprocessing.R"
