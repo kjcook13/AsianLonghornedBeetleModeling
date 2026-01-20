@@ -26,9 +26,11 @@ The R codes for each function file in the paper can be found in the "R Codes" fo
        - the short and long radii values (default: Short = 0.3048 km (1000ft), Long =  0.6096 km (2000ft)
        - visualization modes: Dynamic, Static
        - Simulation length in years
-       - Detection percent per time step
-       - Removal percent per time step
-       - Beetle Generation Time 
+       - Detection Chance per survey
+       - Removal count per year
+       - Survey radius
+       - Beetle Generation Time (1-3 years)
+       - 
 2. "Initialize.R"
     - This function file initializes the agent based model by making sure that all of the necessary packages are installed on the user's R library and sets the storage paths.
 3. "Preprocessing.R"
