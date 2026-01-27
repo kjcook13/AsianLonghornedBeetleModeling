@@ -1,4 +1,4 @@
-# Asian LongHorned Beetle Infestation Modeling
+# Asian Longhorned Beetle Infestation Modeling
 Asian Longhorned Beetle (ALB) infestation modeling via Agent Based Models
 
 Link to Arxiv Paper:
