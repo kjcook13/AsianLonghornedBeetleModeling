@@ -23,7 +23,7 @@ This novel application was developed for field scientists visualize ALB infestat
     1.	Set the length of your simulation in years. 
     2.	Set the yearly output plots, as Static (x and y axis are set to one length for all plots over each year) or Dynamic (x and y axis lengths change by zooming in and out at each year).
     3.	Set Beetle generation time (1-3 years).
-    4.	Set Detection Chance per survey. 
+    4.	Set Survey Events per Year. 
     5.	Set Detection Rate per survey.
     6.	Set Survey Radius  (kilometers)
     7.	Set Removal Preference to 1) infestation density, 2) cost, or 3) random
@@ -46,7 +46,7 @@ The R codes for each function file in the paper can be found in the "R Codes" fo
        - The short and long radii values (default: Short = 0.3048 km (1000ft), Long =  0.6096 km (2000ft)
        - Visualization modes: Static, Dynamic, 
        - Simulation length in years
-       - Detection chance per survey
+       - Survey Events per Year
        - Detection rate per survey
        - Removal count per year
        - Survey radius in kilometers
