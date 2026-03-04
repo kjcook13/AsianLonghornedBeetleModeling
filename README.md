@@ -1,24 +1,27 @@
 # Asian Longhorned Beetle Infestation Modeling
 Asian Longhorned Beetle (ALB) infestation modeling via Agent Based Models
 
-Link to Arxiv Paper:
-
 Paper Abstract: 
 The Asian longhorned beetle (Anoplophora glabripennis; ALB) is an invasive tree pest in urban and peri-urban forests in both North America and Europe. This pest requires active management, as ALB damage typically leads to tree mortality and potentially dangerous situations resulting from limb breakage and falling host trees. Effective management programs require an understanding of how invasive species spread and how their spread is altered by management practices. To that end, we developed a spatially explicit agent-based model in which we simulate the spread of ALB through probabilistic functions, and simulate management scenarios. The probability of ALB spread was calculated as a function of the host trees’ diameter at breast height, source pressure from neighboring infestations, and the distance from a potential host to the nearest infested host. Management strategies were configured based on stakeholder input and calibrated parameters via history matching. Simulated outputs of the number of detected infestations per year, and the number of removed trees per year, were compared to the observed data. Model accuracy varied among the four states used in this study, with observed annual counts falling within the 10–90% posterior predictive interval for most years in Massachusetts and New York, but a lower percent coverage in Ohio. The model showed promise as a useful tool for predicting invasive species’ populations and as part of a comprehensive ALB management strategy.
 
 # Shiny Application Tool
-Link to Shiny App: https://keishacook.shinyapps.io/App-ALB-ABM/
+Please use ShinyApp via R/RStudio on your device. 
+    - Download R: https://www.r-project.org/
+    - Download RStudio: https://posit.co/download/rstudio-desktop/
+    - Install/Set-up R ShinyApp: https://shiny.posit.co/r/getstarted/shiny-basics/lesson1/
 
 This novel application was developed for field scientists visualize ALB infestation data and model the infestation data over years. The user may upload their field data and run the various codes to study the spatial relationships of the data, simulate the infestation data provided, and simulate scenarios of the infestations over years. 
 
 ## Step-By-Step Application Instructions
-1.	Proceed to the tab, “Import Data and Set Parameters”.
+1.  Download the ZIP folder containing the application codes. The ZIP folder is located in the subfolder in this repository called "R Codes". Once downloaded, unzip the folder. Double click on the R file called "app.R". The code will open in RSTudio.
+2.  In the top right corner of the code block, click "Run App". The application will appear in a new window. Application instructions can be found on the "Introduction" tab of the application.
+3.	Proceed to the tab, “Import Data and Set Parameters”.
     1.	Set the upper and lower radii. This will be used in the forthcoming calculators. 
-    2.	Upload CSV dataset. Preview data to ensure correctness. Download the updated CSV.
+    2.	Upload CSV dataset. Select "Process Data" and wait until the completion pop-up appears. Check the image to the right to ensure that the uploaded data is correct. Download the updated CSV.
     3.	Run “Spatial Analysis Calculator” by uploading the updated CSV from the previous step. Save the file after complete. If you have already used this calculator and saved the file, upload the spatial results.
-    4.	Run “SP Score Calculator” by uploading the updated CSV and the spatial results file. Save the file after complete. If you have already used this calculator and saved the file, upload the SP score results.
-    5.	Run “DBH Calculator” by uploading the updated CSV. Save the file after complete. If you have already used this calculator and saved the file, upload the DBH results.
-    6.	Run “Nearest Neighbor Calculator” by uploading the updated CSV. Save the file after complete. If you have already used this calculator and saved the file, upload the Nearest Neighbor results.
+    4.	Run “SP Score Calculator” by uploading the updated CSV and the spatial results file. Save the file after complete. If you have already used this calculator and saved the file, upload the SP score results. Wait until the completion pop-up appears and then select "Run/Confirm SP", which will save the information for later use. Wait until the completion pop-up appears.
+    5.	Run “DBH Calculator” by uploading the updated CSV. Save the file after complete. If you have already used this calculator and saved the file, upload the DBH results. Wait until the completion pop-up appears and then select "Run/Confirm DBH", which will save the information for later use. Wait until the completion pop-up appears.
+    6.	Run “Nearest Neighbor Calculator” by uploading the updated CSV. Save the file after complete. If you have already used this calculator and saved the file, upload the Nearest Neighbor results. Wait until the completion pop-up appears and then select "Run/Confirm NN", which will save the information for later use. Wait until the completion pop-up appears.
 2.	Proceed to the next tab, “Run Simulation”
     1.	Set the length of your simulation in years. 
     2.	Set the yearly output plots, as Static (x and y axis are set to one length for all plots over each year) or Dynamic (x and y axis lengths change by zooming in and out at each year).
