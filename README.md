@@ -22,18 +22,18 @@ This novel application was developed for field scientists visualize ALB infestat
     4.	Run “SP Score Calculator” by uploading the updated CSV and the spatial results file. Save the file after complete. If you have already used this calculator and saved the file, upload the SP score results. Wait until the completion pop-up appears and then select "Run/Confirm SP", which will save the information for later use. Wait until the completion pop-up appears.
     5.	Run “DBH Calculator” by uploading the updated CSV. Save the file after complete. If you have already used this calculator and saved the file, upload the DBH results. Wait until the completion pop-up appears and then select "Run/Confirm DBH", which will save the information for later use. Wait until the completion pop-up appears.
     6.	Run “Nearest Neighbor Calculator” by uploading the updated CSV. Save the file after complete. If you have already used this calculator and saved the file, upload the Nearest Neighbor results. Wait until the completion pop-up appears and then select "Run/Confirm NN", which will save the information for later use. Wait until the completion pop-up appears.
-2.	Proceed to the next tab, “Run Simulation”
+4.	Proceed to the next tab, “Run Simulation”
     1.	Set the length of your simulation in years. 
     2.	Set the yearly output plots, as Static (x and y axis are set to one length for all plots over each year) or Dynamic (x and y axis lengths change by zooming in and out at each year).
     3.	Set Beetle generation time (1-3 years).
     4.	Set Survey Events per Year. 
-    5.	Set Detection Rate per survey.
-    6.	Set Survey Radius  (kilometers)
-    7.	Set Removal Preference to 1) infestation density, 2) cost, or 3) random
-    8.	Set removal events per year
-3.	Proceed by clicking on “Generate Proximity Matrix”. This step may take hours depending on how much data you have.
-4.	Proceed by clicking on “Run Simulation”.
-5.	Proceed to the next tab, “Visualize Simulation Results”.
+    5.	Set Detection Rate per Survey.
+    6.	Set Survey Radius (kilometers).
+    7.	Set Removal Preference to 1) infestation density, 2) cost, or 3) random.
+    8.	Set Removal Events per Year
+5.	Proceed by clicking on “Generate Proximity Matrix”. Click "Ok" when the procesing pop-up appears, then wait until the completion pop-up appears. Select "Run/Confirm Proximity Matrices" to save the information for use in later steps. Wait until the completion pop-up appears.  
+6.	Proceed by clicking the “Run Simulation” button.
+7.	Proceed to the next tab, “Visualize Simulation Results”.
     1.	Select “Generate Visualization Plots”. The output plots from the simulation will appear in this window. The user may also download the figures.
 
 
