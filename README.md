@@ -40,8 +40,8 @@ This novel application was developed for field scientists visualize ALB infestat
 
 Example output figures can be found in the "Output Examples" folder of the repository.
 
-# Using the R Codes without the App
-The R codes for each function file in the paper can be found in the "R Codes" folder of this repository. Below you will find the instructions for running the individual R codes without using the application. The codes are listed and explained in order of use.
+# Information about the background codes included in the Zip folder.
+The R codes for each function file can be found in the ZIP folder of this repository "R Codes" folder. Below you will find the instructions for running the individual R codes without using the application. The codes are listed and explained in order of use.
 
 1. "ABMProcedure.R"
     - The code houses all of the source codes. It begins by locating your local folder directory where the code is stored. This also ensures that the outputs are saved to the same folder at later steps. By running this code, the user is running all of the function files sequentially and then running the simulation as the last line of the code.
